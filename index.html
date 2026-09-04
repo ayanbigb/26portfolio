@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A collection of projects by Ayan Bhakta." />
+    <title>Projects</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page-shell">
+      <header class="hero">
+        <p class="eyebrow">Selected work · 2026</p>
+        <h1>projects<span>:</span></h1>
+        <p class="intro">A small collection of experiments in robotics, machine learning, and prediction.</p>
+      </header>
+
+      <section class="projects" aria-label="Project links">
+        <a
+          class="project-card featured"
+          href="https://prodduke-my.sharepoint.com/:p:/g/personal/aab148_duke_edu/IQDBxeSr5ZFeRa6ZR3Rs9Pk0AZA0tKq0borJOVFmiFbiZqA?e=BSDQGG"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span class="number">01</span>
+          <div class="project-copy">
+            <p class="project-type">Robotics · Learning</p>
+            <h2>TSIL robotic learning demo</h2>
+          </div>
+          <span class="arrow" aria-hidden="true">↗</span>
+        </a>
+
+        <a
+          class="project-card"
+          href="https://github.com/ayanbigb/world-cup-predictor"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span class="number">02</span>
+          <div class="project-copy">
+            <p class="project-type">Machine Learning · Sports</p>
+            <h2>World Cup predictor</h2>
+          </div>
+          <span class="arrow" aria-hidden="true">↗</span>
+        </a>
+
+        <a
+          class="project-card"
+          href="https://drive.google.com/file/d/1a2JHPbikYCgWeofk6JVPmQWD5PpBYGX9/view?usp=sharing"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span class="number">03</span>
+          <div class="project-copy">
+            <p class="project-type">Robotics · Demo</p>
+            <h2>Robotic hand demo</h2>
+          </div>
+          <span class="arrow" aria-hidden="true">↗</span>
+        </a>
+      </section>
+
+      <footer>© <span id="year"></span> Ayan Bhakta</footer>
+    </main>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
