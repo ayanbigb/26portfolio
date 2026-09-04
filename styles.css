@@ -81,6 +81,13 @@ h1 span { color: #de3c2e; }
 
 .number { align-self: start; }
 .project-type { margin-bottom: 8px; }
+.download-label {
+  margin: 12px 0 0;
+  font-family: "DM Mono", monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
 
 h2 {
   margin-bottom: 0;
