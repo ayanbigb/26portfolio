@@ -81,6 +81,14 @@ h1 span { color: #de3c2e; }
 
 .number { align-self: start; }
 .project-type { margin-bottom: 8px; }
+
+.project-note {
+  max-width: 42rem;
+  margin: 12px 0 0;
+  font-size: 0.95rem;
+  font-weight: 600;
+  line-height: 1.35;
+}
 .project-actions {
   display: flex;
   flex-wrap: wrap;
