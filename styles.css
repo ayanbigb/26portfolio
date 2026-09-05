@@ -81,12 +81,26 @@ h1 span { color: #de3c2e; }
 
 .number { align-self: start; }
 .project-type { margin-bottom: 8px; }
-.download-label {
+.project-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.9rem;
   margin: 12px 0 0;
+}
+
+.project-action {
+  color: inherit;
   font-family: "DM Mono", monospace;
   font-size: 0.72rem;
   letter-spacing: 0.04em;
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
   text-transform: uppercase;
+}
+
+.project-action:hover,
+.project-action:focus-visible {
+  color: #de3c2e;
 }
 
 h2 {
